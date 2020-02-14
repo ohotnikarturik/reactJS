@@ -1,0 +1,14 @@
+.nav {
+  grid-area: n;
+  background-color: lightskyblue;
+}
+
+.item {
+  list-style: none;
+  margin: 5px;
+}
+
+.link {
+  color: brown;
+  font-weight: bold;
+}

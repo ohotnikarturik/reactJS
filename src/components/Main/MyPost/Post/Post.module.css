@@ -1,0 +1,10 @@
+.item {
+  display: flex;
+  align-items: center;
+  color: white;
+  list-style: none;
+}
+.img {
+  width: 50px;
+
+}

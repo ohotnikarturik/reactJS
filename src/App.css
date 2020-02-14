@@ -1,3 +1,4 @@
+
 html, body {
   height: 100%;
   width: 100%;
@@ -18,46 +19,9 @@ html, body {
           'f f';
 }
 
-.header {
-  grid-area: h;
-  width: 100%;
-  background-color: lightseagreen;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-#logo {
-  width: 60px;
-  height: 60px;
-}
 
-.nav {
-  grid-area: n;
-  background-color: lightskyblue;
-}
 
-.item {
-  list-style: none;
-}
 
-.main {
-  grid-area: m;
-  background-color: lightcoral;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.main img {
-  width: 100%;
-  height: 200px;
-}
 
-.footer {
-  grid-area: f;
-  background-color: lightseagreen;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
