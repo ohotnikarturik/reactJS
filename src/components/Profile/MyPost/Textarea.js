@@ -4,6 +4,7 @@ import s from './Textarea.module.css'
 const Textarea = () => {
   return (
       <form>
+        <h3>My posts</h3>
         <textarea className={s.textarea}> </textarea>
         <button className={s.button}>Add post</button>
         <button className={s.button}>Remove post</button>

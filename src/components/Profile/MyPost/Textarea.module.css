@@ -1,0 +1,12 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 10px;
+}

@@ -3,12 +3,25 @@
   background-color: lightskyblue;
 }
 
+.list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .item {
   list-style: none;
   margin: 5px;
 }
 
 .link {
-  color: brown;
+  color: rebeccapurple;
   font-weight: bold;
+  text-decoration: none;
+}
+
+.link.active {
+  color: crimson;
+  border-bottom: 2px solid;
 }
