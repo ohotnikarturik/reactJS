@@ -10,12 +10,10 @@ const ProfileInfo = () => {
                alt="img"/>
         </div>
         <div>
-          <h3>Description</h3>
+          <h3 className={s.subTitle}>Well come!!!</h3>
         </div>
       </div>
   )
 };
 
 export default ProfileInfo;
-
-

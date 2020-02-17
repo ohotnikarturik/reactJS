@@ -24,6 +24,9 @@ const App = () => {
             <Route path='/music' component={Music}/>
             <Route path='/settings' component={Settings}/>
           </main>
+          <div className='sidebar'>
+
+          </div>
           <Footer/>
         </div>
       </BrowserRouter>

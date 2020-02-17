@@ -22,14 +22,20 @@ body {
   overflow: hidden;
 
   grid-template-rows: 80px 1fr 80px;
-  grid-template-columns: 2fr 10fr;
+  grid-template-columns: 2fr 8fr 2fr;
   grid-gap: 3px;
 
   grid-template-areas:
-          'h h'
-          'n m'
-          'f f';
+          'h h h'
+          'n m s'
+          'f f f';
 }
+
+.sidebar {
+  grid-area: s;
+  background-color: lightskyblue;
+}
+
 
 /*.container {*/
 /*  max-width: 1200px;*/

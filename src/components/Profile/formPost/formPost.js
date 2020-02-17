@@ -1,7 +1,7 @@
 import React from "react";
-import s from './Textarea.module.css'
+import s from './formPost.module.css'
 
-const Textarea = () => {
+const FormPost = () => {
   return (
       <form>
         <h3>My posts</h3>
@@ -12,4 +12,4 @@ const Textarea = () => {
   )
 };
 
-export default Textarea;
+export default FormPost;
