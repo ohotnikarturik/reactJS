@@ -1,0 +1,8 @@
+.text {
+  background-color: white;
+  color: darkgrey;
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px;
+  border-radius: 10px;
+}

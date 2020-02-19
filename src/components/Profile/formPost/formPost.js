@@ -1,13 +1,18 @@
 import React from "react";
 import s from './formPost.module.css'
+import Button from "../../Button/Button";
+import Subtitle from "../../Subtitle/Subtitle";
 
 const FormPost = () => {
   return (
       <form>
-        <h3>My posts</h3>
+        <Subtitle subtitle={'My Post'}/>
         <textarea className={s.textarea}> </textarea>
-        <button className={s.button}>Add post</button>
-        <button className={s.button}>Remove post</button>
+        <div className={s.buttonBlock}>
+          <Button buttonName={'Add post'}/>
+          <Button buttonName={'Remove post'}/>
+        </div>
+
       </form>
   )
 };

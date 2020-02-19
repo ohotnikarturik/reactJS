@@ -9,13 +9,10 @@
   list-style: none;
   margin: 10px;
 }
-.img {
-  width: 50px;
-  margin: 10px;
-}
 
 .like {
   background-color: yellow;
   color: darkblue;
   margin: 5px;
+  padding: 10px;
 }

@@ -6,7 +6,31 @@ form {
 }
 
 .textarea {
-  width: 400px;
-  height: 50px;
-  margin-bottom: 10px;
+  height: 90px;
+  width: 70%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  resize: none;
+  outline: none;
+  color: darkgrey;
+  font-weight: bold;
+  margin-bottom: 20px;
+  transition: all .3s;
+}
+
+.textarea:hover {
+  box-shadow: 0 0 10px 5px white;
+}
+
+.textarea:focus {
+  border: 1px solid darkcyan;
+  box-shadow: 0 0 10px 5px white;
+
+}
+
+.buttonBlock {
+  display: flex;
+
 }

@@ -9,24 +9,23 @@ import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
 import Footer from "./components/Footer/Footer";
 import {BrowserRouter, Route} from "react-router-dom";
+import state from "./redux/state";
 
 
-const App = () => {
+const App = (props) => {
+  console.log(props);
   return (
       <BrowserRouter>
         <div className='wrapper'>
           <Header/>
-          <Nav/>
+          <Nav users={props.state.sidebarBlock.users}/>
           <main className='main'>
-            <Route path='/profile' component={Profile}/>
-            <Route /*exact*/ path='/dialogues' component={Dialogues}/>
-            <Route path='/news' component={News}/>
-            <Route path='/music' component={Music}/>
-            <Route path='/settings' component={Settings}/>
+            <Route path='/profile' render={() => <Profile posts={props.state.dialoguesPage.posts}/>}/>
+            <Route /*exact*/ path='/dialogues' render={() => <Dialogues dialogues={props.state.messagesPage.dialogues} messages={props.state.messagesPage.messages}/>}/>
+            <Route path='/news' render={() => <News/>}/>
+            <Route path='/music' render={() => <Music/>}/>
+            <Route path='/settings' render={() => <Settings/>}/>
           </main>
-          <div className='sidebar'>
-
-          </div>
           <Footer/>
         </div>
       </BrowserRouter>

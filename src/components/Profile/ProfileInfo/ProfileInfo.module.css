@@ -1,8 +1,23 @@
+.profileInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.profileInfoBlock {
+  text-align: center;
+}
+
 .img {
-  width: 100%;
+  text-align: center;
+  max-width: 70%;
+  margin-top: 30px;
 }
 
-.subTitle {
-  margin: 10px;
+.profileInfoSubtitle {
+  color: white;
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
 }
-

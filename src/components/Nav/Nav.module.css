@@ -1,6 +1,9 @@
 .nav {
   grid-area: n;
-  background-color: lightskyblue;
+  background-color:salmon;
+  display: grid;
+  grid-template-rows: 300px 1fr;
+  padding: 25px;
 }
 
 .list {
@@ -16,12 +19,34 @@
 }
 
 .link {
-  color: rebeccapurple;
+  color: white;
   font-weight: bold;
   text-decoration: none;
+  font-size: 20px;
+  transition: .2s;
+}
+
+.link:hover {
+  padding: 5px;
+  color: black;
+  /*background-color: white;*/
+  font-style: italic;
+  box-shadow: 0 0 10px 5px white;
+  border-radius: 10px;
+  border-bottom: 3px solid;
 }
 
 .link.active {
-  color: crimson;
-  border-bottom: 2px solid;
+  color: black;
+  /*border-bottom: 3px solid;*/
+  font-style: italic;
+}
+
+.usersNav {
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
 }

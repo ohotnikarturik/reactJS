@@ -1,0 +1,19 @@
+.messagesBlock {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  border-left: 4px solid white;
+}
+
+ .itemLeft {
+  display: flex;
+  align-items: center;
+}
+
+.itemRight {
+  display: flex;
+  align-items: center;
+}
+
+
+

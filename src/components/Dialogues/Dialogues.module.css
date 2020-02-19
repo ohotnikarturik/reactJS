@@ -1,13 +1,18 @@
 .dialoguesBlocks {
   display: grid;
-  grid-template-columns: 2fr 10fr;
-}
-
-.dialogItem, .messageItem {
-  padding: 10px;
+  grid-template-columns: 4fr 8fr;
 }
 
 .dialoguesList .active {
   color: brown;
   font-weight: bold;
 }
+
+.dialogItem {
+  display: flex;
+  align-items: center;
+  color: white;
+  list-style: none;
+  margin: 10px;
+}
+
