@@ -13,6 +13,34 @@
   align-items: center;
   color: white;
   list-style: none;
-  margin: 10px;
+  margin: 5px;
 }
 
+.messagesBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.messagesList {
+  margin-bottom: 30px;
+}
+
+.textarea {
+  height: 90px;
+  width: 70%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  resize: none;
+  outline: none;
+  color: darkgrey;
+  font-weight: bold;
+  margin-bottom: 20px;
+  transition: all .3s;
+}
+
+.textarea:hover {
+  box-shadow: 0 0 10px 5px white;
+}

@@ -5,12 +5,14 @@ import FormPost from "./formPost/formPost";
 import Post from "./Post/Post";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-
 const Profile= (props) => {
   return (
       <div>
         <ProfileInfo/>
-        <FormPost/>
+        <FormPost addPost={props.addPost}
+                  newPostText={props.newPostText}
+                  updateNewPostText={props.updateNewPostText}
+                  updateNewMessageText={props.updateNewMessageText}/>
         <Post posts={props.posts}/>
       </div>
   )

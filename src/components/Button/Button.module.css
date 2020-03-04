@@ -1,14 +1,14 @@
 .button {
   display: block;
-  padding: 7px;
-  min-width: 140px;
-  font-size: 18px;
+  padding: 8px;
+  min-width: 120px;
+  font-size: 16px;
   outline: none;
   cursor: pointer;
   border-radius: 5px;
   margin: 10px;
   color: white;
-  background-color: darkcyan;
+  background-color: lightseagreen;
   border: 1px solid white;
   transition: all .3s;
 }
@@ -16,8 +16,8 @@
 .button:hover {
   font-weight: bold;
   background-color: white;
-  color: darkcyan;
+  color: lightseagreen;
   box-shadow: 0 0 10px 5px white;
-  border: 1px solid darkcyan;
+  border: 1px solid lightseagreen;
 
 }

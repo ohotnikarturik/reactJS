@@ -23,17 +23,17 @@
   font-weight: bold;
   text-decoration: none;
   font-size: 20px;
-  transition: .2s;
+  transition: .3s;
 }
 
 .link:hover {
-  padding: 5px;
+  padding: 7px;
   color: black;
   /*background-color: white;*/
-  font-style: italic;
+  /*font-style: italic;*/
   box-shadow: 0 0 10px 5px white;
   border-radius: 10px;
-  border-bottom: 3px solid;
+  border-bottom: 2px solid;
 }
 
 .link.active {

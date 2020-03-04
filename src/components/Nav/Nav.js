@@ -1,13 +1,12 @@
 import React from "react";
 import s from './Nav.module.css';
 import {NavLink} from "react-router-dom";
-import Friends from "./Friends/Friends";
+import Users from "../Users/Users";
 import Subtitle from "../Subtitle/Subtitle";
 
 const Nav = (props) => {
-  console.log(props);
 
-  let usersElement = props.users.map(f => <Friends name={f.name}/>);
+  let usersElement = props.users.map(f => <Users name={f.name}/>);
 
   return (
       <nav className={s.nav}>

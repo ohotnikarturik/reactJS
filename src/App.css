@@ -21,7 +21,7 @@ body {
   min-height: 100vh;
   overflow: hidden;
 
-  grid-template-rows: 80px 1fr 80px;
+  grid-template-rows: 70px 1fr 70px;
   grid-template-columns: 3fr 9fr;
   grid-gap: 3px;
 

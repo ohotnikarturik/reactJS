@@ -27,7 +27,6 @@ form {
 .textarea:focus {
   border: 1px solid darkcyan;
   box-shadow: 0 0 10px 5px white;
-
 }
 
 .buttonBlock {
